@@ -1,0 +1,73 @@
+digraph Tree {
+0 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>MsgCreator</B></td></tr></table>>]
+1 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>XalanMsgLib</B></td></tr></table>>]
+0 -> 1 ;
+2 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>AllInOne</B></td></tr></table>>]
+1 -> 2 ;
+3 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>conf</B></td></tr></table>>]
+2 -> 3 ;
+4 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>XalanExe</B></td></tr></table>>]
+2 -> 4 ;
+5 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>CompileStylesheet</B></td></tr></table>>]
+2 -> 5 ;
+6 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>DocumentBuilder</B></td></tr></table>>]
+2 -> 6 ;
+7 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>ExternalFunction</B></td></tr></table>>]
+2 -> 7 ;
+8 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>ParsedSourceWrappers</B></td></tr></table>>]
+2 -> 8 ;
+9 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>SerializeNodeSet</B></td></tr></table>>]
+2 -> 9 ;
+10 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>SimpleTransform</B></td></tr></table>>]
+2 -> 10 ;
+11 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>SimpleXPathAPI</B></td></tr></table>>]
+2 -> 11 ;
+12 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>SimpleXPathCAPI</B></td></tr></table>>]
+2 -> 12 ;
+13 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>StreamTransform</B></td></tr></table>>]
+2 -> 13 ;
+14 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>TestXPath</B></td></tr></table>>]
+2 -> 14 ;
+15 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>TestXSLT</B></td></tr></table>>]
+2 -> 15 ;
+16 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>ThreadSafe</B></td></tr></table>>]
+2 -> 16 ;
+17 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>ThreadTest</B></td></tr></table>>]
+2 -> 17 ;
+18 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>TraceListen</B></td></tr></table>>]
+2 -> 18 ;
+19 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>TransformToXercesDOM</B></td></tr></table>>]
+2 -> 19 ;
+20 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>UseStylesheetParam</B></td></tr></table>>]
+2 -> 20 ;
+21 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>XalanTransform</B></td></tr></table>>]
+2 -> 21 ;
+22 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>XalanTransformerCallback</B></td></tr></table>>]
+2 -> 22 ;
+23 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>All</B></td></tr></table>>]
+2 -> 23 ;
+5 -> 23 ;
+3 -> 23 ;
+6 -> 23 ;
+7 -> 23 ;
+8 -> 23 ;
+9 -> 23 ;
+10 -> 23 ;
+11 -> 23 ;
+12 -> 23 ;
+13 -> 23 ;
+14 -> 23 ;
+15 -> 23 ;
+16 -> 23 ;
+17 -> 23 ;
+18 -> 23 ;
+19 -> 23 ;
+20 -> 23 ;
+4 -> 23 ;
+22 -> 23 ;
+21 -> 23 ;
+24 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>perf</B></td></tr></table>>]
+2 -> 24 ;
+25 [shape=none label=<<table border="0" cellspacing="0"><tr><td port="port1" border="1" color="red"><B>EntityResolver</B></td></tr></table>>]
+2 -> 25 ;
+}
